@@ -1,3 +1,3 @@
 # Sum&Substance Mobile SDK for iOS
 
-Coming soon...
+Documentation can be found [here](https://developers.sumsub.com/msdk/ios/)
