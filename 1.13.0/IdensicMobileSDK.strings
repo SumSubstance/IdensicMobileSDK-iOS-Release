@@ -1,0 +1,342 @@
+/*
+ IdensicMobileSDK.strings
+ */
+
+// --- General
+
+"sns_general_poweredBy" = "Powered by Sumsub";
+
+// --- idDocs
+
+"sns_iddoc_type_PASSPORT" = "Passport";
+"sns_iddoc_type_DRIVERS" = "Driver License";
+"sns_iddoc_type_ID_CARD" = "ID Card";
+"sns_iddoc_type_BANK_CARD" = "Bank Card";
+"sns_iddoc_type_SNILS" = "Pension Card (SNILS)";
+"sns_iddoc_type_UTILITY_BILL" = "Utility Bill";
+"sns_iddoc_type_BANK_STATEMENT" = "Bank Statement";
+"sns_iddoc_type_TRAVEL_PASSPORT" = "Travel Passport";
+"sns_iddoc_type_SELFIE" = "Selfie";
+"sns_iddoc_type_ID_DOC_PHOTO" = "ID Doc Photo";
+"sns_iddoc_type_AGREEMENT" = "Agreement";
+"sns_iddoc_type_PROFILE_IMAGE" = "Profile Image";
+"sns_iddoc_type_EMPLOYMENT_CERTIFICATE" = "Employment Certificate";
+"sns_iddoc_type_DRIVERS_TRANSLATION" = "Driver License Translation";
+"sns_iddoc_type_VEHICLE_REGISTRATION_CERTIFICATE" = "Vehicle Registration Certificate";
+"sns_iddoc_type_INVESTOR_DOC" = "Investor Document";
+"sns_iddoc_type_INCOME_SOURCE" = "Income Source";
+"sns_iddoc_type_COMPANY_DOC" = "Company Document";
+"sns_iddoc_type_CONTRACT" = "Contract";
+"sns_iddoc_type_RESIDENCE_PERMIT" = "Residence Permit";
+"sns_iddoc_type_PROOF_OF_PAYMENT" = "Proof of Payment";
+"sns_iddoc_type_MRZ_DOCUMENT" = "MRZ Document";
+"sns_iddoc_type_LEGAL_ENTITY" = "Legal Entity Document";
+"sns_iddoc_type_OTHER" = "Other";
+
+"sns_iddoc_listing_join" = " • ";
+"sns_iddoc_listing_join_details" = "\n• ";
+
+"sns_iddoc_status_notSubmitted" = "Not submitted";
+"sns_iddoc_status_submitted" = "Submitted";
+"sns_iddoc_status_reviewing" = "Under review";
+//"sns_iddoc_status_approved" = "";
+
+// --- Status
+
+"sns_status_defaults_title" = "Verification status";
+
+"sns_status_INITIAL_title" = "Verify your identity";
+"sns_status_INITIAL_subtitle" = "It will only take about 2 minutes";
+"sns_status_INITIAL_footerHtml" = "By tapping Continue, you accept our <a href='gtc'>Terms and Conditions</a> and agree to our processing of your personal data, as described in the <a href='pp'>Consent to Personal Data Processing</a>";
+"sns_status_INITIAL_action_continue" = "Continue";
+
+"sns_status_INCOMPLETE_title" = "Complete your verification";
+"sns_status_INCOMPLETE_subtitle" = "It will only take about 2 minutes";
+"sns_status_INCOMPLETE_footerHtml" = "To complete the verification process, you need to submit all the documents. If you experience any issues, please contact <a href='support'>support</a>.";
+"sns_status_INCOMPLETE_action_continue" = "Continue";
+
+"sns_status_PENDING_title" = "Verification status";
+"sns_status_PENDING_subtitle" = "The system is reviewing your documents.\nThis usually takes about 2 minutes.";
+"sns_status_PENDING_footerHtml" = "The verification status will change automatically once the review is complete. If you experience any issues, please contact <a href='support'>support</a>.";
+
+"sns_status_REJECT_title" = "Verification status";
+"sns_status_REJECT_subtitle" = "Unfortunately, there is a problem with your documents. Find the details below to see what the issue is and how you can resolve it.";
+"sns_status_REJECT_footerHtml" = "If you experience any issues, please contact <a href='support'>support</a>.";
+
+"sns_status_FINAL_REJECT_title" = "Verification status";
+"sns_status_FINAL_REJECT_subtitle" = "Unfortunately, we couldn't verify your identity.";
+"sns_status_FINAL_REJECT_footerHtml" = "If you have any questions, please contact <a href='support'>support</a>.";
+
+"sns_status_APPROVED_title" = "Verification status";
+"sns_status_APPROVED_subtitle" = "Successfully completed";
+"sns_status_APPROVED_footerHtml" = "";
+
+// --- Steps
+
+// _defaults_ will be applied if there will be no key defined for a specific step
+
+"sns_step_defaults_scan_frontSide_title" = "Scan the document";
+"sns_step_defaults_scan_frontSide_brief" = "Make sure that all the details on the document are visible, free of blur and glare.";
+
+
+"sns_step_defaults_scan_backSide_title" = "Scan the next page of the document";
+"sns_step_defaults_scan_backSide_brief" = "Make sure that all the details on the document are visible, free of blur and glare.";
+
+
+// IDENTITY step
+
+"sns_step_IDENTITY_title" = "Identity document";
+"sns_step_IDENTITY_prompt" = "Take a photo of your ID";
+
+"sns_step_IDENTITY_scan_frontSide_title" = "Front of ID";
+"sns_step_IDENTITY_scan_frontSide_brief" = "Scan the front of your ID document.";
+"sns_step_IDENTITY_scan_frontSide_details" = "
+Scan the front of your ID. It can be one of the following documents:
+
+• %s
+
+Make sure that the whole document is in the screen area.
+
+All the information should be readable, without any reflections or blur.
+";
+
+"sns_step_IDENTITY_scan_backSide_title" = "Back of ID";
+"sns_step_IDENTITY_scan_backSide_brief" = "Flip your document over and scan the back side.";
+"sns_step_IDENTITY_scan_backSide_details" = "
+Scan the back of your ID. Make sure that the whole document is in the screen area.
+
+All the information should be readable, without any reflections or blur.
+";
+
+// PROOF_OF_RESIDENCE step
+
+"sns_step_PROOF_OF_RESIDENCE_title" = "Proof of Address";
+"sns_step_PROOF_OF_RESIDENCE_prompt" = "Take a photo of a Proof of Address";
+"sns_step_PROOF_OF_RESIDENCE_scan_frontSide_title" = "Proof of address";
+"sns_step_PROOF_OF_RESIDENCE_scan_frontSide_brief" = "Scan your Proof of address. The document should contain your full name, date of birth and be no older than 3 months.";
+"sns_step_PROOF_OF_RESIDENCE_scan_frontSide_details" = "
+✅ We accept:
+
+• Bank statements
+• Utility bills
+• Internet/Cable TV/House phone line bills
+• Tax returns
+• Council tax bills
+• Government-issued certifications of residence
+
+🚫 We don't accept:
+
+• Screenshots
+• Mobile phone bills
+• Medical bills
+• Receipts for purchases
+• Insurance statements
+
+Make sure that the document contains your full name, date of birth and is not older than 3 months.
+";
+
+// SELFIE step
+
+"sns_step_SELFIE_title" = "Video selfie";
+"sns_step_SELFIE_prompt" = "Take a Selfie";
+
+"sns_step_SELFIE_photo_title" = "Selfie with document";
+"sns_step_SELFIE_photo_brief" = "Take a photo of yourself with the document in hand.";
+"sns_step_SELFIE_photo_details" = "Take a photo of yourself with the document in hand. Both your face and the document must be: fully visible, inside the picture. The document must be the same one that you provided previously.";
+
+"sns_step_SELFIE_recording_header" = "Record a Video selfie";
+"sns_step_SELFIE_recording_instructions" = "Read the green text aloud";
+"sns_step_SELFIE_recording_readAloudText" = "“I'm not a robot”;“I confirm that I uploaded my own documents“";
+
+// APPLICANT_DATA step
+
+"sns_step_APPLICANT_DATA_title" = "Profile Details";
+"sns_step_APPLICANT_DATA_prompt" = "Verify and complete your personal information.";
+
+// --- Support
+
+"sns_support_title" = "Support";
+"sns_support_subtitle" = "You can contact us in one of the following ways:";
+
+"sns_support_EMAIL_description" = "We'll be happy to help.\nJust send us your question.";
+"sns_support_EMAIL_title" = "Email us";
+
+// --- ToS
+
+"sns_tos_action_accept" = "I agree";
+
+//
+// Translations for legal docs could be provided with one of the following ways:
+// - configure them with the dashboard
+// - put an html into `sns_tos_*_html`
+// - or set an url to be loaded with `sns_tos_*_url`
+//
+//"sns_tos_GTC_url" = "";
+//"sns_tos_GTC_html" = "";
+//"sns_tos_PP_url" = "";
+//"sns_tos_PP_html" = "";
+
+// --- Oops
+
+"sns_oops_fatal_title" = "Oops! Something went wrong.";
+"sns_oops_fatal_html" = "We're sorry about that. You could go back and try again or contact <a href='support'>support</a>.";
+
+"sns_oops_network_title" = "Oops! Seems like the network is down.";
+"sns_oops_network_html" = "Please check your internet connection and try again.";
+
+"sns_oops_action_goBack" = "Go back";
+"sns_oops_action_retry" = "Try again";
+
+// --- Prompts
+
+"sns_prompt_doubleSide_text" = "Is the document you scanned double-sided?";
+"sns_prompt_doubleSide_action_yes" = "Yes";
+"sns_prompt_doubleSide_action_no" = "No";
+
+// --- Alerts
+
+"sns_alert_action_ok" = "OK";
+"sns_alert_action_cancel" = "Cancel";
+"sns_alert_action_settings" = "Settings";
+
+"sns_alert_lackOfCameraPermissions" = "You need to allow the app to use your camera";
+"sns_alert_lackOfMicrophonePermissions" = "You need to allow the app to use your microphone";
+"sns_alert_lackOfPhotoLibraryPermissions" = "The application doesn't have permission to use the Photo Library, please change the privacy settings";
+
+"sns_alert_unableToFindBackCamera" = "Unable to find rear camera";
+"sns_alert_unableToFindFrontCamera" = "Unable to find front camera";
+"sns_alert_unableToFindMicrophone" = "Unable to find microphone";
+
+"sns_alert_unableToUseBackCamera" = "Unable to use rear camera";
+"sns_alert_unableToUseFrontCamera" = "Unable to use front camera";
+"sns_alert_unableToUseMicrophone" = "Unable to use microphone";
+
+"sns_alert_unableToCapturePhoto" = "Unable to capture photo";
+"sns_alert_unableToCaptureVideo" = "Unable to capture video";
+
+"sns_alert_unableToRunPhotoSession" = "Unable to run photo session";
+"sns_alert_unableToRunVideoSession" = "Unable to run video session";
+
+"sns_alert_verificationAlreadyStarted" = "Verification has already been started. Please wait until it's complete and try again.";
+
+// --- Gallery
+
+"sns_gallery_action_files" = "Files…";
+
+// --- Preview
+
+"sns_preview_photo_title" = "Photo preview";
+"sns_preview_photo_subtitle" = "Make sure that all the information on the document is visible and easy to read";
+"sns_preview_photo_action_accept" = "Document is readable";
+"sns_preview_photo_action_retake" = "Retake photo";
+
+"sns_preview_video_title" = "Video preview";
+"sns_preview_video_subtitle" = "Make sure that the video is not blurred or otherwise defected and that the sound is clear";
+"sns_preview_video_action_accept" = "Video is acceptable";
+"sns_preview_video_action_retake" = "Retake video";
+
+"sns_preview_uploading_title" = "Uploading";
+
+// --- Applicant Data
+
+"sns_data_alert_validationFailed" = "Please, complete all the required fields and provide the correct values for the fields you fill out.";
+
+"sns_data_action_prev" = "Prev";
+"sns_data_action_next" = "Next";
+"sns_data_action_done" = "Done";
+"sns_data_action_submit" = "Continue";
+
+"sns_data_placeholder_required" = "Required";
+"sns_data_placeholder_optional" = "Optional";
+
+"sns_data_field_firstName" = "First name";
+"sns_data_field_lastName" = "Last name";
+"sns_data_field_middleName" = "Middle name";
+"sns_data_field_email" = "Email";
+"sns_data_field_phone" = "Contact number";
+"sns_data_field_countryOfBirth" = "Country of birth";
+"sns_data_field_stateOfBirth" = "State of birth";
+"sns_data_field_dob" = "Date of birth";
+"sns_data_field_placeOfBirth" = "Place of birth";
+"sns_data_field_legalName" = "Legal name";
+"sns_data_field_gender" = "Gender";
+"sns_data_field_nationality" = "Nationality";
+"sns_data_field_country" = "Country";
+"sns_data_field_street" = "Address line 1";
+"sns_data_field_subStreet" = "Address line 2";
+"sns_data_field_buildingNumber" = "Building number";
+"sns_data_field_flatNumber" = "Flat number";
+"sns_data_field_town" = "City";
+"sns_data_field_state" = "State";
+"sns_data_field_postCode" = "Post code";
+
+// --- FaceScan
+
+"sns_facescan_action_retry" = "Try again";
+"sns_facescan_hint_facePosition" = "Position your face to fit the frame";
+"sns_facescan_hint_lookStraight" = "Look straight into the camera";
+"sns_facescan_hint_processing" = "Processing...";
+"sns_facescan_result_GREEN_title" = "Your data is accepted";
+"sns_facescan_result_GREEN_text" = "";
+"sns_facescan_result_RED_title" = "We couldn't process your face data";
+"sns_facescan_result_RED_text" = "Please make sure that it's not too dark or your face is not covered by light reflection. You can also try taking the check in front of a neutral background";
+"sns_facescan_result_YELLOW_title" = "Your data has been successfully submitted";
+"sns_facescan_result_YELLOW_text" = "";
+
+// --- Liveness
+
+"sns_liveness_title" = "Liveness detection";
+
+"sns_liveness_initializing" = "Starting...";
+"sns_liveness_prepareForRetake" = "Just a second...";
+"sns_liveness_processing" = "Processing...";
+
+"sns_liveness_action_cancel" = "Cancel";
+"sns_liveness_action_continue" = "Continue";
+"sns_liveness_action_retry" = "Resume";
+
+"sns_liveness_check_success" = "Successful!";
+"sns_liveness_check_failed" = "Check failed, please try again.";
+"sns_liveness_check_submitted" = "Your data was successfully sent";
+"sns_liveness_fail_deviceLocked" = "Device is locked, please try again later.";
+"sns_liveness_fail_networkFailure" = "Please check your internet connection and try again.";
+"sns_liveness_fail_wrongOrientation" = "Please turn your device so that it is in portrait mode and try again.";
+"sns_liveness_fail_sessionTimeout" = "You've been inactive for a while. Tap Resume to continue.";
+"sns_liveness_fail_contextSwitch" = "Please neither lock the screen nor switch to other apps during the process.";
+"sns_liveness_fail_cameraInitialization" = "Unable to start the front camera. Please make sure that your camera is functioning properly.";
+
+"zoom_accessibility_cancel_button" = "Cancel";
+
+"zoom_action_ok" = "OK";
+"zoom_action_im_ready" = "I'm ready";
+
+"zoom_camera_permission_header" = "Turn on camera";
+"zoom_camera_permission_message_enroll" = "Please turn on your selfie camera.";
+"zoom_camera_permission_message_auth" = "The app needs access to your camera. Tap below to allow it in Settings.";
+"zoom_camera_permission_enable_camera" = "Turn on camera";
+"zoom_camera_permission_launch_settings" = "Open Settings";
+
+"zoom_feedback_center_face" = "Center your face";
+"zoom_feedback_face_not_found" = "Center your face";
+"zoom_feedback_face_not_looking_straight_ahead" = "Look at the camera";
+"zoom_feedback_face_not_upright" = "Hold your head straight";
+"zoom_feedback_hold_steady" = "Don't move";
+"zoom_feedback_move_phone_away" = "Move back";
+"zoom_feedback_move_phone_closer" = "Move closer";
+"zoom_feedback_move_phone_even_closer" = "Even closer";
+"zoom_feedback_move_phone_to_eye_level" = "Raise your chin";
+"zoom_feedback_use_even_lighting" = "Too dark";
+
+"zoom_instructions_header_ready" = "Get ready for\nyour video selfie";
+"zoom_instructions_message_ready" = "Fit your face in\nthe small oval, and then the big oval";
+
+"zoom_result_facemap_upload_message" = "Processing";
+
+"zoom_retry_header" = "Let's try that again";
+"zoom_retry_subheader_message" = "Please take a look at your photo and see what needs to be corrected.";
+"zoom_retry_instruction_message_1" = "Neutral expression, no smiling";
+"zoom_retry_instruction_message_2" = "No glare or poor lighting";
+"zoom_retry_instruction_message_3" = "";
+"zoom_retry_your_image_label" = "Your selfie";
+"zoom_retry_ideal_image_label" = "Sample image";
+
