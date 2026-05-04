@@ -66,5 +66,6 @@
   "1.40.2": "https://raw.githubusercontent.com/SumSubstance/IdensicMobileSDK-iOS-Release/master/1.40.2/IdensicMobileSDK-1.40.2.zip",
   "1.41.0": "https://raw.githubusercontent.com/SumSubstance/IdensicMobileSDK-iOS-Release/master/1.41.0/IdensicMobileSDK-1.41.0.zip",
   "1.41.1": "https://raw.githubusercontent.com/SumSubstance/IdensicMobileSDK-iOS-Release/master/1.41.1/IdensicMobileSDK-1.41.1.zip",
-  "1.42.0": "https://raw.githubusercontent.com/SumSubstance/IdensicMobileSDK-iOS-Release/master/1.42.0/IdensicMobileSDK-1.42.0.zip"
+  "1.42.0": "https://raw.githubusercontent.com/SumSubstance/IdensicMobileSDK-iOS-Release/master/1.42.0/IdensicMobileSDK-1.42.0.zip",
+  "1.43.0": "https://maven.sumsub.com/repository/releases/IdensicMobileSDK-iOS/1.43.0/IdensicMobileSDK-1.43.0.zip"
 }
